@@ -1,0 +1,62 @@
+﻿.container {
+    display: grid;
+    grid-gap: 0px;
+    max-width: 1500px;
+    width: 95%;
+}
+
+section.grid-item.grid-item-1 {
+    background-color: lightpink;
+    height: 100px;
+
+}
+
+section.grid-item.grid-item-2 {
+    background-color: darkred;
+}
+
+section.grid-item.grid-item-3 {
+    background-image: url('Images/junkyard.jpg');
+    height: 500px;
+    background-size: cover;
+}
+#logo {
+    height: 50%;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+ul {
+    list-style-type: none;
+    background-color: darkred;
+    border: 1px solid black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+}
+li {
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgray;
+}
+.jumbotron {
+    position: absolute;
+    width: auto;
+    margin-left: 615px;
+    height: auto;
+    margin-top: 300px;
+    z-index: 1000;
+    border: 5px solid darkgray;
+}
